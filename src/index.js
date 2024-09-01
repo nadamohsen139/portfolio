@@ -35,8 +35,8 @@ export const projects = [
     altText: "Ai Travel Planner App",
     title: "Ai Travel Planner App",
     technologies: ["Expo-Router" , "Native Wind" , "Firebase For Authentication" , "Firestore Database" , "MapTiler" ,
-      "React Native Calender Picker" , "Moment.js" ,  "Gemini Google Generative Ai (for creating the trip plans)",
-      "Unsplash" ],
+      "React Native Calender Picker" , "Gemini Google Generative Ai (for creating the trip plans)",
+      "Unsplash", "Moment.js" , ],
   },
   {
     href: "https://e-commerce-website-one-flax.vercel.app/",
@@ -78,14 +78,14 @@ export const projects = [
     imgSrc: coursesapp,
     altText: "Courses App Website",
     title: "Courses App Website",
-    technologies: ["HTML", "CSS", "Hand-made Framework File"],
+    technologies: ["HTML", "CSS"],
   },
   {
     href: "https://nadamohsen139.github.io/nada-fashion-house/",
     imgSrc: fashion,
     altText: "Fashion House Website",
     title: "Fashion House Website",
-    technologies: ["HTML", "CSS", "Hand-made Framework File"],
+    technologies: ["HTML", "CSS"],
   },
 ];
 
