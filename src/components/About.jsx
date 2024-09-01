@@ -1,7 +1,9 @@
 const About = () => {
   return (
-    <div className="about border-b border-gray-600 pb-20" id="about">
-      <h2 className="my-20 text-center text-4xl font-semibold">About me</h2>
+    <div className="about border-b border-gray-600 lg:pb-20 pb-10" id="about">
+      <h2 className="lg:my-20 my-10 text-center text-4xl font-semibold">
+        About me
+      </h2>
       <div className="flex items-center justify-center text-center flex-wrap">
         I am a dedicated and versatile front-end developer with a passion for
         creating efficient and user-friendly web applications. I have worked

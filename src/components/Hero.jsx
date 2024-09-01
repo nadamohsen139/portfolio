@@ -2,9 +2,12 @@ import { HERO_CONTENT } from "../index";
 import profilepic from "../assets/profilepic.png";
 const Hero = () => {
   return (
-    <div className="hero pb-4 lg:mb-35 border-b border-gray-600" id="home">
+    <div
+      className="hero pb-4 lg:mb-35 mb-10 border-b border-gray-600"
+      id="home"
+    >
       <div className="flex flex-wrap items-center justify-center">
-        <div className="w-full lg:w-1/4 lg:p-6 flex justify-center">
+        <div className="w-3/4 lg:w-1/3 lg:p-6 flex justify-center">
           <img src={profilepic} alt="profile picture" />
         </div>
         <div className="w-full lg:w-1/2">

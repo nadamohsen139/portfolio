@@ -2,14 +2,19 @@ import { projects } from "../index";
 
 const Projects = () => {
   return (
-    <div className="projects border-b border-gray-600 pb-20" id="projects">
-      <h2 className="my-20 text-center text-4xl font-semibold">Projects</h2>
+    <div
+      className="projects border-b border-gray-600 lg:pb-20 pb-10"
+      id="projects"
+    >
+      <h2 className="lg:my-20 my-10 text-center text-4xl font-semibold">
+        Projects
+      </h2>
 
       <div className="map-container">
         {projects.map((project, index) => (
           <div
             key={index}
-            className="project flex flex-col text-center gap-10 flex-wrap lg:flex-nowrap justify-center items-center pb-10 p-6 dark:bg-[#504f4f43] bg-[#ffffff82] rounded-xl"
+            className="project flex flex-col text-center gap-10 justify-center items-center p-8 dark:bg-[#504f4f43] bg-[#ffffff82] rounded-xl"
           >
             <div className="w-80">
               <a href={project.href} target="_blank" rel="noopener noreferrer">
@@ -37,7 +42,7 @@ const Projects = () => {
                 <span className="font-semibold text-left text-xl">
                   Technologies Used
                 </span>
-                <div className="flex text-center gap-4 flex-wrap justify-center items-center lg:max-w-[36rem]">
+                <div className="flex text-center gap-4 flex-wrap justify-center items-center">
                   {project.technologies.map((tech, techIndex) => (
                     <span
                       key={techIndex}
