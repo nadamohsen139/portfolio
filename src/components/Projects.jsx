@@ -10,13 +10,13 @@ const Projects = () => {
         Projects
       </h2>
 
-      <div className="map-container">
+      <div className="flex flex-col items-center gap-y-6">
         {projects.map((project, index) => (
           <div
             key={index}
-            className="project flex flex-col text-center gap-10 justify-center items-center p-8 dark:bg-[#504f4f43] bg-[#ffffff82] rounded-xl"
+            className="project flex flex-col text-center gap-10 justify-center items-center p-4 max-w-[350px] rounded-xl dark:bg-[#504f4f43] bg-[#ffffff82]"
           >
-            <div className="w-80">
+            <div className="w-full">
               <a href={project.href} target="_blank" rel="noopener noreferrer">
                 <img
                   src={project.imgSrc}
@@ -32,14 +32,14 @@ const Projects = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <h3 className="lg:text-3xl text-2xl font-semibold mb-6 lg:text-left text-center hover:text-pink-300">
+                  <h3 className="lg:text-3xl text-2xl font-semibold mb-6 text-center hover:text-pink-300">
                     {project.title}
                   </h3>
                 </a>
               </div>
 
               <div className="flex flex-col text-center gap-4 flex-wrap techs justify-center items-center">
-                <span className="font-semibold text-left text-xl">
+                <span className="font-semibold lg:text-left text-center text-xl">
                   Technologies Used
                 </span>
                 <div className="flex text-center gap-4 flex-wrap justify-center items-center">

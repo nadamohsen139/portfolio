@@ -12,10 +12,10 @@ const Hero = () => {
         </div>
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start">
-            <h1 className="pb-10 text-6xl font-semibold tracking-tight lg:mt-10 lg:mx-7">
+            <h1 className="pb-10 text-6xl text-center font-semibold tracking-tight lg:mt-10 lg:mx-7">
               Nada Mohsen
             </h1>
-            <span className="mx-8 font-semibold">
+            <span className="mx-8 font-semibold text-center">
               Front-end Web and Mobile App Developer
             </span>
             <p className="py-10 text-center lg:text-start mx-8">

@@ -18,8 +18,8 @@ const NavBar = () => {
     }
   };
   return (
-    <div className="lg:mb-20 mb-10 flex items-center justify-between py-6">
-      <div className="flex flex-shrink-0 items-center w-48">
+    <div className="lg:mb-20 mb-10 flex items-center lg:justify-between justify-center py-6">
+      <div className="flex flex-shrink-0 items-center lg:w-48 w-32">
         <img
           src={
             document.documentElement.classList.contains("dark")
@@ -63,12 +63,12 @@ const NavBar = () => {
           href="https://www.linkedin.com/in/nada-mohsen-3555322b7/"
           target="_blank"
         >
-          <div className="m-8 text-3xl text-black dark:text-white hover:text-pink-200">
+          <div className="m-8 lg:text-3xl text-2xl text-black dark:text-white hover:text-pink-200">
             <FaLinkedin />
           </div>
         </a>
         <a href="https://github.com/nadamohsen139" target="_blank">
-          <div className="m-8 text-3xl text-black dark:text-white hover:text-pink-200">
+          <div className="m-8 lg:text-3xl text-2xl text-black dark:text-white hover:text-pink-200">
             <FaGithub />
           </div>
         </a>
