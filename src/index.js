@@ -7,6 +7,7 @@ import fashion from "./assets/fashion-website.png";
 import ecommerce from "./assets/ecommerce-web.png";
 import travelplanner from "./assets/travel_icon_1024x1024.png";
 import jobfinder from "./assets/job_finder_logo_converted.png";
+import languApp from "./assets/LanguApp_logo.png";
 
 
 
@@ -22,6 +23,13 @@ export const CONTACT = {
 };
 
 export const projects = [
+  {
+    href: "https://expo.dev/accounts/nada-mohsen/projects/learning-app/builds/8f2126ea-9f90-45d7-81a3-1262491f9fdf",
+    imgSrc: languApp,
+    altText: "LanguApp",
+    title: "LanguApp",
+    technologies: ["Expo-Router" , "Native Wind"],
+  },
   {
     href: "https://expo.dev/accounts/nada-mohsen/projects/job-finder-app/builds/5c927f97-3be9-4bf1-9ebd-47b057ad41c5",
     imgSrc: jobfinder,
