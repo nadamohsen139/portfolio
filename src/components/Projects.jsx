@@ -6,9 +6,12 @@ const Projects = () => {
       className="projects border-b border-gray-600 lg:pb-20 pb-10"
       id="projects"
     >
-      <h2 className="lg:my-20 my-10 text-center text-4xl font-semibold">
+      <h2 className="lg:my-20 my-10 mb-5 text-center text-4xl font-semibold">
         Projects
       </h2>
+      <h3 className="lg:mb-20 mb-10 text-center text-2xl font-semibold text-pink-200 dark:text-pink-400">
+        You Can View The Tutorial Videos Of My Projects on my Linkedin Profile
+      </h3>
 
       <div className="flex flex-col items-center gap-y-6">
         {projects.map((project, index) => (
