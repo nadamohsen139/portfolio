@@ -8,6 +8,7 @@ import ecommerce from "./assets/ecommerce-web.png";
 import travelplanner from "./assets/travel_icon_1024x1024.png";
 import jobfinder from "./assets/job_finder_logo_converted.png";
 import languApp from "./assets/LanguApp_logo.png";
+import ecommercemobile from "./assets/minimalist_furniture_resized_1024x1024.png"
 
 
 
@@ -23,6 +24,13 @@ export const CONTACT = {
 };
 
 export const projects = [
+  {
+    href: "https://expo.dev/accounts/nada-mohsen/projects/ecommerce-app/builds/554fb75d-c1d5-408d-aa40-9c71371021f3",
+    imgSrc: ecommercemobile,
+    altText: "Ecommerce App",
+    title: "Minimalist Furniture Ecommerce App",
+    technologies: ["Expo-Router" , "Native Wind", "Redux Toolkit", "Firebase For Authentication", "Firestore Database"],
+  },
   {
     href: "https://expo.dev/accounts/nada-mohsen/projects/learning-app/builds/8f2126ea-9f90-45d7-81a3-1262491f9fdf",
     imgSrc: languApp,
