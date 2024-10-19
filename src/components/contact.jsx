@@ -1,3 +1,5 @@
+import Resume from "/src/assets/Nada-Mohsen-Resume.pdf";
+
 const Contact = () => {
   return (
     <div className="contact pb-20 text-center" id="contact">
@@ -15,7 +17,7 @@ const Contact = () => {
         You Can Download My Resume from{" "}
         <a
           href="/src/assets/Nada-Mohsen-Resume.pdf"
-          download
+          download={Resume}
           className="font-bold text-pink-400"
         >
           Here
