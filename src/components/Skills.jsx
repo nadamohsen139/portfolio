@@ -13,6 +13,9 @@ const Skills = () => {
     "Native Wind",
     "Git",
     "Github",
+    "Redux Toolkit",
+    "Firebase",
+    "Typescript",
   ];
   return (
     <div className="skills border-b border-gray-600 lg:pb-20 pb-10" id="skills">
