@@ -15,11 +15,7 @@ const Contact = () => {
       </div>
       <div className="font-semibold mb-6 lg:text-2xl">
         You Can Download My Resume from{" "}
-        <a
-          href="/src/assets/Nada-Mohsen-Resume.pdf"
-          download={Resume}
-          className="font-bold text-pink-400"
-        >
+        <a href={Resume} download={Resume} className="font-bold text-pink-400">
           Here
         </a>
       </div>
