@@ -1,4 +1,5 @@
 import Resume from "/src/assets/Nada-Mohsen-Resume.pdf";
+import React from "react";
 
 const Contact = () => {
   return (

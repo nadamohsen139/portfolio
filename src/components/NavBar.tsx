@@ -1,3 +1,4 @@
+import React from "react";
 import lightlogo from "../assets/lightmodelogo.png";
 import darklogo from "../assets/darkmodelogo.png";
 import { FaLinkedin } from "react-icons/fa";

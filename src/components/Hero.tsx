@@ -1,5 +1,6 @@
 import { HERO_CONTENT } from "../index";
 import profilepic from "../assets/profilepic.png";
+import React from "react";
 const Hero = () => {
   return (
     <div

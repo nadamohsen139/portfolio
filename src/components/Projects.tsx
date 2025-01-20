@@ -1,4 +1,5 @@
 import { projects } from "../index";
+import React from "react";
 
 const Projects = () => {
   return (

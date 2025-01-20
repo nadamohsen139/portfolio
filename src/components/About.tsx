@@ -1,3 +1,5 @@
+import React from "react";
+
 const About = () => {
   return (
     <div className="about border-b border-gray-600 lg:pb-20 pb-10" id="about">
