@@ -17,7 +17,7 @@ const Hero = () => {
               Nada Mohsen
             </h1>
             <span className="mx-8 font-semibold text-center">
-              Front-end Web and Mobile App Developer
+              React Native Developer
             </span>
             <p className="py-10 text-center lg:text-start mx-8">
               {HERO_CONTENT}

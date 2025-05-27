@@ -13,9 +13,9 @@ import eventbooking from "./assets/event-booking-logo.png"
 
 
 
-export const HERO_CONTENT = `I am a passionate front-end developer with a knack for creating intuitive and user-friendly websites and mobile applications. I have developed my skills in front-end technologies like React and React Native Expo. My goal is to leverage my expertise to create innovative solutions that deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate front-end developer with a knack for creating intuitive and user-friendly mobile applications. I have developed my skills in front-end technologies like React and React Native Expo. My goal is to leverage my expertise to create innovative solutions that deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile front-end developer with a passion for creating efficient and user-friendly web applications. I have worked with a variety of technologies, including Firebase, Supabase, MapTiler, Moment.js, Interacting with Gemini Google Generative Ai and API Job Posting like Adzuna API. My journey in mobile app development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile front-end developer with a passion for creating efficient and user-friendly mobile applications. I have worked with a variety of technologies, including Firebase, Supabase, MapTiler, Moment.js, Interacting with Gemini Google Generative Ai and API Job Posting like Adzuna API. My journey in mobile app development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 
 export const CONTACT = {
@@ -26,35 +26,35 @@ export const CONTACT = {
 
 export const projects = [
   {
-    href: "https://expo.dev/accounts/nada-mohsen/projects/event-booking-app/builds/ed6ec484-d96d-4ec4-a43e-ef6fe58c89ac",
+    href: "https://www.linkedin.com/posts/nada-mohsen139_hello-everyone-say-hello-to-my-new-project-activity-7287809832152109056-2fP1?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEwTLnEBqk2k9hvkINWVzEdlEBHYicq00zA",
     imgSrc: eventbooking,
     altText: "Event Booking App",
     title: "Event Booking App",
     technologies: ["React Navigation" , "Native Wind", "Redux Toolkit", "MockAPI For Authentication", "MockAPI Database"],
   },
   {
-    href: "https://expo.dev/accounts/nada-mohsen/projects/ecommerce-app/builds/554fb75d-c1d5-408d-aa40-9c71371021f3",
+    href: "https://www.linkedin.com/posts/nada-mohsen139_hey-there-you-can-check-out-my-new-ecommerce-activity-7250953259568287744-wmww?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEwTLnEBqk2k9hvkINWVzEdlEBHYicq00zA",
     imgSrc: ecommercemobile,
     altText: "Ecommerce App",
     title: "Minimalist Furniture Ecommerce App",
     technologies: ["Expo-Router" , "Native Wind", "Redux Toolkit", "Firebase For Authentication", "Firestore Database"],
   },
   {
-    href: "https://expo.dev/accounts/nada-mohsen/projects/learning-app/builds/8f2126ea-9f90-45d7-81a3-1262491f9fdf",
+    href: "https://www.linkedin.com/posts/nada-mohsen139_here-is-my-new-project-languapp-on-this-activity-7243688835174330368-U76d?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEwTLnEBqk2k9hvkINWVzEdlEBHYicq00zA",
     imgSrc: languApp,
     altText: "LanguApp",
     title: "LanguApp",
     technologies: ["Expo-Router" , "Native Wind"],
   },
   {
-    href: "https://expo.dev/accounts/nada-mohsen/projects/job-finder-app/builds/5c927f97-3be9-4bf1-9ebd-47b057ad41c5",
+    href: "https://www.linkedin.com/posts/nada-mohsen139_you-can-check-out-now-my-job-finder-app-activity-7235721619116044288-cfM4?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEwTLnEBqk2k9hvkINWVzEdlEBHYicq00zA",
     imgSrc: jobfinder,
     altText: "Job Finder App",
     title: "Job Finder App",
     technologies: ["Expo-Router" , "Native Wind" , "Supabase For Authentication" , "Supabase Database (for storing user data)" , "Supabase Storage (for storing Profile Pics)" , "Expo image picker" , "Adzuna API for displaying job postings" ],
   },
   {
-    href: "https://expo.dev/accounts/nada-mohsen/projects/travel-planner/builds/b5e795b2-215e-4198-b436-492325be8b9f",
+    href: "https://www.linkedin.com/posts/nada-mohsen139_here-is-my-first-mobile-app-ai-travel-planner-activity-7229469912639971328-r7uv?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEwTLnEBqk2k9hvkINWVzEdlEBHYicq00zA",
     imgSrc: travelplanner,
     altText: "Ai Travel Planner App",
     title: "Ai Travel Planner App",

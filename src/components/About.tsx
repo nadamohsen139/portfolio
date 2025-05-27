@@ -8,7 +8,7 @@ const About = () => {
       </h2>
       <div className="flex items-center justify-center text-center flex-wrap">
         I am a dedicated and versatile front-end developer with a passion for
-        creating efficient and user-friendly web applications. I have worked
+        creating efficient and user-friendly mobile applications. I have worked
         with a variety of technologies, including
         <span className="text-pink-400">
           Firebase For Authentication and Firestore Database, Supabase For
