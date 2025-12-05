@@ -47,6 +47,11 @@ const NavBar = () => {
               Skills
             </li>
           </a>
+          <a href="#experience">
+            <li className="font-bold lg:text-xl text-sm hover:text-pink-300">
+              Work Experience
+            </li>
+          </a>
           <a href="#projects">
             <li className="font-bold lg:text-xl text-sm hover:text-pink-300">
               Projects
