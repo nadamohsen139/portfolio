@@ -18,6 +18,9 @@ const Skills = () => {
     "Redux Toolkit",
     "Firebase",
     "Typescript",
+    "graphQl",
+    "Appium",
+    "Amplify",
   ];
   return (
     <div className="skills border-b border-gray-600 lg:pb-20 pb-10" id="skills">
