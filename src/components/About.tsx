@@ -15,14 +15,14 @@ const About = () => {
         interface feel right.
         <span className="text-pink-400">
           At PikaDo, I worked as a Junior React Native Developer where I
-          contributed across the full development lifecycle. I built and
-          integrated GraphQL queries and mutations for third-party services,
-          implemented a secure authentication flow using AWS Amplify (Cognito),
-          and developed the UI for the app’s interactive questions module. I
-          also architected reusable components following Atomic Design
-          principles for the company’s Design System, built a Storybook mobile
-          app for component documentation, added a voice playback accessibility
-          feature, and helped establish UI test automation using Appium.
+          contributed across the full development lifecycle. I integrated
+          GraphQL queries and mutations for third-party services, implemented a
+          secure authentication flow using AWS Amplify (Cognito), and developed
+          the UI for the app’s interactive questions module. I also architected
+          reusable components following Atomic Design principles for the
+          company’s Design System, built a Storybook mobile app for component
+          documentation, added a voice playback accessibility feature, and
+          helped establish UI test automation using Appium.
         </span>
         I am comfortable working with React Native (Both React native cli and
         Expo), TypeScript, Redux Toolkit, GraphQL, Firebase, and AWS Amplify,
