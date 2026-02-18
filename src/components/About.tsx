@@ -7,21 +7,26 @@ const About = () => {
         About me
       </h2>
       <div className="flex items-center justify-center text-center flex-wrap">
-        I am a dedicated and versatile front-end developer with a passion for
-        creating efficient and user-friendly mobile applications. I have worked
-        with a variety of technologies, including
+        Although my degree is in Architecture, I transitioned into mobile
+        development driven by a genuine passion for building products that
+        people use every day. My architectural background has actually sharpened
+        how I approach development: I think in systems, care deeply about user
+        experience, and pay close attention to the details that make an
+        interface feel right.
         <span className="text-pink-400">
-          Firebase For Authentication and Firestore Database, Supabase For
-          Authentication , Storage and Database, MapTiler, Moment.js,
-          Interacting with Gemini Google Generative Ai and API Job Posting like
-          Adzuna API.
+          At PikaDo, I worked as a Junior React Native Developer where I
+          contributed across the full development lifecycle. I built and
+          integrated GraphQL queries and mutations for third-party services,
+          implemented a secure authentication flow using AWS Amplify (Cognito),
+          and developed the UI for the app’s interactive questions module. I
+          also architected reusable components following Atomic Design
+          principles for the company’s Design System, built a Storybook mobile
+          app for component documentation, added a voice playback accessibility
+          feature, and helped establish UI test automation using Appium.
         </span>
-        My journey in mobile app development began with a deep curiosity for how
-        things work, and it has evolved into a career where I continuously
-        strive to learn and adapt to new challenges. I thrive in collaborative
-        environments and enjoy solving complex problems to deliver high-quality
-        solutions. Outside of coding, I enjoy staying active, exploring new
-        technologies, and contributing to open-source projects.
+        I am comfortable working with React Native (Both React native cli and
+        Expo), TypeScript, Redux Toolkit, GraphQL, Firebase, and AWS Amplify,
+        and I thrive in Agile environments.
       </div>
     </div>
   );

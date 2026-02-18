@@ -34,7 +34,7 @@ const WorkExperience = () => {
               PikaDo
             </div>
             <span className="font-semibold lg:text-left text-center text-xl">
-              June 2025 - Present
+              June 2025 - Feb 2026
             </span>
           </div>
         </a>
