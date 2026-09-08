@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import lightlogo from "../assets/lightmodelogo.png";
 import darklogo from "../assets/darkmodelogo.png";
 import { FaLinkedin } from "react-icons/fa";
@@ -8,16 +8,15 @@ import { WiDaySunny } from "react-icons/wi";
 import { useState } from "react";
 
 const NavBar = () => {
-  const [theme, setTheme] = useState("light");
-  const handleClick = () => {
-    if (theme === "light") {
-      document.documentElement.classList.add("dark");
-      setTheme("dark");
-    } else if (theme === "dark") {
-      document.documentElement.classList.remove("dark");
-      setTheme("light");
-    }
-  };
+  const [theme, setTheme] = useState(() =>
+    document.documentElement.classList.contains("dark") ? "dark" : "light",
+  );
+
+  useEffect(() => {
+    document.documentElement.classList.toggle("dark", theme === "dark");
+  }, [theme]);
+
+  const handleClick = () => setTheme((t) => (t === "light" ? "dark" : "light"));
   return (
     <div className="lg:mb-20 mb-10 flex items-center lg:justify-between justify-center py-6">
       <div className="flex flex-shrink-0 items-center lg:w-48 w-32">
