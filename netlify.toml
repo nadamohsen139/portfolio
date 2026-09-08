@@ -1,0 +1,12 @@
+# Netlify build configuration for the Vite + React portfolio.
+# Explicitly pin the Node version and set the build/publish paths so the
+# deploy does NOT depend on Netlify's dashboard settings or its default Node.
+
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  # Satisfies the engines of all installed deps (vite needs >=20,
+  # several just-upgraded toolchain deps need >=20.19 / >=22.13).
+  NODE_VERSION = "22.16.0"
