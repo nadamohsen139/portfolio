@@ -1,4 +1,4 @@
-import Resume from "/src/assets/NadaMohsenResume.pdf";
+import Resume from "/src/assets/nadamohsenresume.pdf";
 import React from "react";
 
 const Contact = () => {
