@@ -86,7 +86,7 @@ const NavBar = () => {
         </div>
         <button
           onClick={handleClick}
-          className="fixed bottom-0 right-0 rounded-lg bg-black text-white dark:text-black p-3 text-2xl dark:bg-white"
+          className="fixed bottom-0 right-0 rounded-lg rounded-br-none bg-black text-white dark:text-black p-3 text-2xl dark:bg-white"
         >
           {theme === "dark" ? <WiDaySunny /> : <MdOutlineDarkMode />}
         </button>
@@ -98,7 +98,7 @@ const NavBar = () => {
         aria-label={menuOpen ? "Close navigation menu" : "Open navigation menu"}
         aria-expanded={menuOpen}
         onClick={() => setMenuOpen(!menuOpen)}
-        className="fixed top-0 right-0 z-50 rounded-lg p-2.5 text-2xl shadow-lg bg-neutral-100 text-black dark:bg-neutral-800 dark:text-white hover:text-pink-300 md:hidden"
+        className="fixed top-0 right-0 z-50 rounded-lg rounded-tr-none p-2.5 text-2xl shadow-lg bg-neutral-100 text-black dark:bg-neutral-800 dark:text-white hover:text-pink-300 md:hidden"
       >
         {menuOpen ? <FaTimes /> : <FaBars />}
       </button>
